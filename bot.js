@@ -319,7 +319,7 @@ client.on('message', message => {
         .setDescription('**أكتب هي  :**')
         .addField('Fplay', 'لتشغيل اغنية')
         .addField('Fjoin', 'دخول رومك الصوتي')
-        .addField('Fdisconnect', 'الخروج من رومك الصوتي')
+        .addField('Fleave', 'الخروج من رومك الصوتي')
         .addField('Fskip', 'تخطي الأغنية')
         .addField('Fpause', 'ايقاف الاغنية مؤقتا')
         .addField('Fresume', 'تكملة الاغنية')
@@ -337,7 +337,6 @@ client.on('message', message => {
         let helpEmbed = new Discord.RichEmbed()
         .setTitle('**أوامر عامة...**')
         .addField('Favatar', "افاتار الشخص المطلوب")
-        .addField('Fgif', 'البحث عن جيف انت تطلبه')
         .addField('Fping', 'معرفة ping البوت')
         .setFooter('by : AbdouFERSAOUI_Dz 👻็็็็็็็็็#5217')
       message.channel.send(helpEmbed);
